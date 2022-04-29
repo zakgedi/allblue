@@ -13,23 +13,23 @@ The game takes advantage of encapsulation. Therefore, the code can be further up
 
 ** Setting up your backend **
 Run the following code to set up your virtual enviroment:
-'''
+```
 python3 -m venv env 
 source env/bin/activate 
-'''
+```
 You can check that you've set up the virtual enviroment with: 
-'''
+```
 echo $VIRTUAL_ENV
-'''
+```
 
 Then we will install all the necessary packages:
-'''
+```
 install package pip install -e .
-'''
+```
 
 Then we can run our backend:
-'''
+```
 export FLASK_ENV=development 
 export FLASK_APP=jumble 
 flask run --host 0.0.0.0 --port 8000
-'''
+```
