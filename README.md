@@ -12,6 +12,7 @@ The game takes advantage of encapsulation. Therefore, the code can be further up
 
 
 **Setting up your backend**
+
 Run the following code to set up your virtual enviroment:
 ```
 python3 -m venv env 
