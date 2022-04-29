@@ -34,3 +34,10 @@ export FLASK_ENV=development
 export FLASK_APP=jumble 
 flask run --host 0.0.0.0 --port 8000
 ```
+
+**Setting up Sqlite**
+```
+brew install sqlite3 
+mkdir var sqlite3 var/jumble. sqlite3 var/jumble.sqlite3 < sql/schema.sql sqlite3 var/jumble.sqlite3 < sql/data.sql
+```
+
