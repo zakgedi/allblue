@@ -11,7 +11,7 @@ My project starts with a command line interface object. After the command line i
 The game takes advantage of encapsulation. Therefore, the code can be further updated for any game by adding new players that inherit from the player class but update the make_move() method. The command line interface class will call make_move on the player regardless of which player it is. Different pieces can inherit from the piece class and override the move_piece class and make their own methods to find legal moves. Therefore, adapting the code to work for another game is a matter of creating new objects that inherit from what is currently available and overriding some methods. Encapsulation means that the rest of the code will interact with the objects just as normal.
 
 
-** Setting up your backend **
+**Setting up your backend**
 Run the following code to set up your virtual enviroment:
 ```
 python3 -m venv env 
